@@ -1,0 +1,37 @@
+var Rules = [{
+    title: '𝑀𝑦𝐹𝑖𝑒𝑙𝑑',
+    version: '17',
+    desc: '改名啦，升个版本号',
+    url: 'https://pasteme.tyrantg.com/xxxxxx/3vomcaojyyfufdoo@CHuUcc'
+}, {
+    title: 'MyField',
+    version: '15',
+    desc: '原名，已终结',
+    url: 'https://pasteme.tyrantg.com/xxxxxx/mk6rsw8kryjmcpck@bymNFJ'
+}, {
+    title: '插件调用示例',
+    version: '3',
+    desc: '写源免嗅套娃',
+    url: 'https://pasteme.tyrantg.com/xxxxxx/hf30iswxlejy38mw@JexrZP'
+}];
+
+var Script = [{
+    title: '解析项目',
+    version: '3.6.03',
+    url: 'toast://去点“更新脚本依赖”'
+}, {
+    title: '批量管理页面',
+    version: 'html',
+    url: 'kT##plglParse.html'
+}, {
+    title: 'Vue',
+    version: '2.5.16',
+    url: 'kT2##vue@2.5.16.js'
+
+}, {
+    title: 'jQuery',
+    version: '2.1.4',
+    url: 'kT2##jquery@2.1.4.js'
+}];
+
+putVar('jxItCloudV', 'var version = "' + Script[0].version + '";');

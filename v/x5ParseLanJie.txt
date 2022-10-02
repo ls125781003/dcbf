@@ -1,0 +1,1 @@
+['.png$', '.jpg$', '.jpeg$', '.gif$', 'baidu\.', 'cnzz\.', 'dykj\.', '.css$', 'tbs\.', '.ico$']
