@@ -1,13 +1,8 @@
 var Rules = [{
     title: '𝑀𝑦𝐹𝑖𝑒𝑙𝑑',
     version: '17',
-    desc: '改名啦，升个版本号',
+    desc: '终版',
     url: 'https://pasteme.tyrantg.com/xxxxxx/3vomcaojyyfufdoo@CHuUcc'
-}, {
-    title: 'MyField',
-    version: '15',
-    desc: '原名，已终结',
-    url: 'https://pasteme.tyrantg.com/xxxxxx/mk6rsw8kryjmcpck@bymNFJ'
 }, {
     title: '插件调用示例',
     version: '3',
