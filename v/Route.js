@@ -1,7 +1,7 @@
 
 eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
 var Route = {
-    jxLazy: "require('https://gitea.com/AI957/Hiker/raw/m/v/Route.js');aytmParse(input)",
+    jxLazy: "require('https://ghproxy.com/https://raw.githubusercontent.com/ls125781003/dcbf/main/v/Route.js');aytmParse(input)",
     setParse: function() {
         eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
         if (!getVar('jxItemV')) {
@@ -29,7 +29,7 @@ var Route = {
         ];
         d.push({
             img: pics[Math.floor(Math.random() * 10)],
-            title: versionTips + '’’<small><span style="color:#6EB897">　　点击此处查看操作指引<br>点击上方头像进入编辑',
+            标题: versionTips + '’’<small><span style="color:#6EB897">　　点击此处查看操作指引<br>点击上方头像进入编辑',
             desc: '当前版本: ' + jxItemV,
             url: fLinks.czzy,
             col_type: 'movie_1'
@@ -44,17 +44,17 @@ function addLanJie(d) {
     } catch (e) {}
     lanjie = typeof(ylanjie) == 'object' ? ylanjie : lanjie;
     for (let i = 0; i < d.length; i++) {
-        let durl = d[i].url;
-        if (durl != undefined && /lazyRule/.test(durl) && /aytmParse|defaultParse/.test(durl)) {
-            d[i].extra = d[i].extra == undefined ? {} : d[i].extra;
-            d[i].extra.blockRules = lanjie;
+        let durl = d[i]。url;
+        if (durl != undefined && /lazyRule/。test(durl) && /aytmParse|defaultParse/。test(durl)) {
+            d[i]。extra = d[i]。extra == undefined ? {} : d[i]。extra;
+            d[i]。extra。blockRules = lanjie;
         }
     }
     setResult(d);
 }
 
 function x5Parse(Url) {
-    return $(Url).lazyRule((cfRoute) => {
+    return $(Url)。lazyRule((cfRoute) => {
         try {
             eval('Config=' + fetch(cfRoute));
             eval(fetch(Config.cj));
@@ -80,7 +80,7 @@ function aytmParse(vipUrl, parseName) {
 }
 
 function playerParse(jurl) {
-    return $(jurl).lazyRule((cfRoute) => {
+    return $(jurl)。lazyRule((cfRoute) => {
         try {
             eval('Config=' + fetch(cfRoute));
             eval(fetch(Config.cj));
@@ -93,26 +93,26 @@ function playerParse(jurl) {
     }, fLinks.config)
 }
 
-function setupPages(type, ls) {
+function setupPages(类型, ls) {
     var empty = ls != undefined ? 'hiker://empty#noHistory#' : 'hiker://empty#noRecordHistory##noHistory#';
-    switch (type) {
+    switch (类型) {
         case "设置":
-            return $(empty).rule((setParse) => {
-                this.d = [];
+            return $(empty)。rule((setParse) => {
+                this。d = [];
                 setParse();
                 setResult(d);
             }, Route.setParse)
             break;
         case "编辑":
-            return $(empty).rule(() => {
-                this.d = [];
+            return $(empty)。rule(() => {
+                this。d = [];
                 eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
                 require(fLinks.jxItUrl);
                 jxItem.jxList();
                 setResult(d);
             })
             break;
-        default:
+        默认:
             return 'toast://需要传入正确参数'
             break;
     }
