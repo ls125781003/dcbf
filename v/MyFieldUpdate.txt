@@ -1,6 +1,6 @@
 var Rules = [{
     title: '𝑀𝑦𝐹𝑖𝑒𝑙𝑑',
-    version: '17',
+    version: '2023110201',
     desc: '终版',
     url: 'https://pasteme.tyrantg.com/xxxxxx/0bqiaprkdeyqcbdb'
 }, {
