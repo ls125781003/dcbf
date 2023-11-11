@@ -2,7 +2,7 @@ var Rules = [{
     title: '𝑀𝑦𝐹𝑖𝑒𝑙𝑑',
     version: '2023110201',
     desc: '终版',
-    url: 'rule://77+laG9tZV9ydWxlX3VybO+/pWh0dHBzOi8vZ2gtcHJveHkuY29tL2h0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9sczEyNTc4MTAwMy9oaWtlcnJ1bGVzL21haW4vcnVsZXMvJUYwJTlEJTkxJTgwJUYwJTlEJTkxJUE2JUYwJTlEJTkwJUI5JUYwJTlEJTkxJTk2JUYwJTlEJTkxJTkyJUYwJTlEJTkxJTk5JUYwJTlEJTkxJTkxJUUxJUI0JUIwJUUyJTgxJUJGLmpzb24='
+    url: 'https://pasteme.tyrantg.com/xxxxxx/qttluqb4hscphdsc'
 }, {
     title: '插件调用示例',
     version: '3',
