@@ -122,7 +122,7 @@ function sonSelect(input) {
             return $("hiker://empty#noRecordHistory#").rule((k) => {
                 var d = [];
                 clearVar("isMerge");
-                eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
+                eval(fetch('hiker://files/cache/duanjs/fileLinksᴰⁿ.txt'));
                 require(fLinks._bjUrl);
                 var name = k[0];
                 var code = k[1];

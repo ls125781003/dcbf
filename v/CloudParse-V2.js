@@ -3,7 +3,7 @@ var _0x7821 = [
     'fORgu',
     'rlMQN',
     'xFYyo',
-    'hiker://files/cache/Parse_Dn.html',
+    'hiker://files/cache/duanjs/Parse_Dn.html',
     'movie_1',
     'kiiew',
     'var\x20yurl=\x27https://pic.cimtp.com/jiexi/jianghu.php?v=\x27+input;var\x20play=\x20request(yurl,{headers:{\x27Referer\x27:\x27https://pic.cimtp.com/jx/?url=\x27}}).match(/\x22url\x22:\x20\x22(.*?)\x22/)[1];play.indexOf(\x27mgtv\x27)>-1?play\x20+\x20\x27;{Referer@https://m.mgtv.com/}\x27:play',
@@ -14,7 +14,7 @@ var _0x7821 = [
     'AFYvJ',
     'KhPPZ',
     'LlXCO',
-    'https://gitee.com/Duan-Nian/Dn/raw/master/hikerview/CloudParse-V2_Dn.js',
+    'https://raw.githubusercontent.com/ls125781003/dcbf/m/v/CloudParse-V2_Dn.js',
     'PXKvU',
     'mySelect',
     'JSON.parse(request(\x27https://www.x4jdm.tv/api.php\x27,\x20{\x20headers:\x20{\x20\x27content-type\x27:\x20\x27application/x-www-form-urlencoded\x27\x20},\x20body:\x20\x27url=\x27\x20+\x20input,\x20method:\x20\x27POST\x27\x20})).url',
@@ -39,7 +39,7 @@ var _0x7821 = [
     'nZnLi',
     '455',
     'x5cache',
-    'file:///storage/emulated/0/Android/data/com.example.hikerview/files/Documents/cache/Parse_Dn.html',
+    'file:///storage/emulated/0/Android/data/com.example.hikerview/files/Documents/cache/duanjs/Parse_Dn.html',
     'cjcache',
     'https://haikuoshijie.cn/user/1958',
     'var\x20yurl=\x27https://m.dedyy.net/?url=\x27+input;var\x20play=request(yurl,{}).match(/url\x22:\x22(.*?)\x22/)[1];play.indexOf(\x27mgtv\x27)>-1?play\x20+\x20\x27;{Referer@https://m.mgtv.com/}\x27:play+\x27#.mp4\x27',
@@ -68,7 +68,7 @@ var _mySet = {
     'cjcache': _0x42e2('0x1f'),
     'x5cache': _0x42e2('0x3'),
     'cj': _0x42e2('0xe'),
-    'x5Url': 'https://gitee.com/Duan-Nian/Dn/raw/master/hikerview/Parse_Dn.html',
+    'x5Url': 'https://raw.githubusercontent.com/ls125781003/dcbf/m/v/Parse_Dn.html',
     'x5Route': _0x42e2('0x27')
 };
 var mySelect = '\x20\x20\x20\x20\x20\x20\x20\x20<option>yun1717</option>\x20\x20\x20\x20\x20\x20\x20\x20<option>parwix</option>\x20\x20\x20\x20\x20\x20\x20\x20<option>全民</option>\x20\x20\x20\x20\x20\x20\x20\x20<option>冷月</option>\x20\x20\x20\x20\x20\x20\x20\x20<option>浆糊</option>\x20\x20\x20\x20\x20\x20\x20\x20<option>cimtp</option>\x20\x20\x20\x20\x20\x20\x20\x20<option>yunbo</option>\x20\x20\x20\x20\x20\x20\x20\x20<option>JX123</option>\x20\x20\x20\x20\x20\x20\x20\x20<option>eeeol</option>\x20\x20\x20\x20\x20\x20\x20\x20<option>m3u8TV</option>\x20\x20\x20\x20\x20\x20\x20\x20<option>https://jxx.smys8.cn/index.php?url=</option>\x20\x20\x20\x20\x20\x20\x20\x20<option>https://vip.52jiexi.top/?url=</option>\x20\x20\x20\x20\x20\x20\x20\x20<option>https://jx.ergan.top/?url=</option>\x20\x20\x20\x20\x20\x20\x20\x20<option>https://jx.m3u8.tv/jiexi/?url=</option>';

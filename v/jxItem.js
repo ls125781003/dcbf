@@ -1,4 +1,4 @@
-eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
+eval(fetch('hiker://files/cache/duanjs/fileLinksᴰⁿ.txt'));
 var parseFile = fetch(fLinks.parses);
 if (parseFile == '') {
     parseFile = '{settings: {},title: [],codes: {}}';
@@ -67,10 +67,10 @@ var tools = {
 
 function getCloudData(intTime) {
     try {
-        requireCache(fLinks.kT + 'MyFieldUpdate.txt', intTime);
+        requireCache(fLinks.kT3 + 'MyFieldUpdate.txt', intTime);
         putVar('getDataState', 'toast://获取资源成功');
     } catch (e) {
-        require(fLinks.kT + 'MyFieldUpdate.txt');
+        require(fLinks.kT3 + 'MyFieldUpdate.txt');
         putVar('getDataState', 'toast://未能获取资源');
     }
     putVar('parseRoute', fLinks.parses);
@@ -83,7 +83,7 @@ function getCloudData(intTime) {
     if (getVar("jxItemV", "0") === '0') {
         getCloudData(1);
     }
-    let Link = 'hiker://files/cache/.noPopup';
+    let Link = 'hiker://files/cache/duanjs/.noPopup';
     if (!fileExist(Link)) {
         return confirm({
             title: '免责声明',
@@ -99,7 +99,7 @@ function getCloudData(intTime) {
 var bjItem = {
     hfPlugin: function() {
         return $('#noLoading#').lazyRule(() => {
-            eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
+            eval(fetch('hiker://files/cache/duanjs/fileLinksᴰⁿ.txt'));
             var L = fLinks.parses;
             if (fileExist(L) == true) {
                 var cjcache = fLinks.cjcache;
@@ -123,7 +123,7 @@ var bjItem = {
             var parseRoute = getVar('parseRoute');
             var parseFile = fetch(parseRoute);
             if (!parseFile) {
-                eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
+                eval(fetch('hiker://files/cache/duanjs/fileLinksᴰⁿ.txt'));
                 var settings = fetch(fLinks.config);
                 settings = settings == '' ? {} : JSON.parse(settings);
                 var json = {};
@@ -211,7 +211,7 @@ var bjItem = {
             var tofLink = function(Url){
                 return 'hiker://files/libs/' + md5(Url) + '.js';
             };
-            eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
+            eval(fetch('hiker://files/cache/duanjs/fileLinksᴰⁿ.txt'));
             try {
                 var cjFile = JSON.parse(fetch(fLinks.cjFrom)).rule;
                 var x5File = JSON.parse(fetch(fLinks.x5From)).rule;
@@ -222,7 +222,7 @@ var bjItem = {
                     deleteCache(fLinks.jxItUrl);
                     writeFile(tofLink(fLinks.routeUrl), fetch(fLinks.kT + 'Route.js'));
                     deleteCache(fLinks.kT3 + 'x5ParseLanJie.txt');
-                    writeFile(fLinks.plgl, fetch(fLinks.kT2 + 'plglParse.html'));
+                    writeFile(fLinks.plgl, fetch(fLinks.kT3 + 'plglParse.html'));
                     writeFile(fLinks.jquery, fetch('https://code.jquery.com/jquery-2.1.4.min.js'));
                     writeFile(fLinks.vue, fetch('https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.min.js'));
                 }
@@ -237,7 +237,7 @@ var bjItem = {
     xlSelect: function(bianji, lbLength) {
         return $(['‘‘’’<span style="color:red" title="删除||' + bianji + '">删 除', '‘‘’’<span style="color:#F57474" title="隐藏||' + bianji + '">隐 藏', '‘‘’’<span style="color:#FF8000" title="修改||' + bianji + '">修 改', '‘‘’’<span style="color:#098AC1" title="置顶||' + bianji + '0' + '">置 顶', '‘‘’’<span style="color:#098AC1" title="移动||' + bianji + '">移 动', '‘‘’’<span style="color:#098AC1" title="置底||' + bianji + lbLength + '">置 底', '‘‘’’<span style="color:#04B431" title="分享||' + bianji + '">地板分享', '‘‘’’<span style="color:#04B431" title="云分享||' + bianji + '">云板分享'],
             2).select(() => {
-            eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
+            eval(fetch('hiker://files/cache/duanjs/fileLinksᴰⁿ.txt'));
             require(fLinks._bjUrl);
             return sonSelect(input);
         })
@@ -246,7 +246,7 @@ var bjItem = {
         return $("hiker://empty#noRecordHistory#").rule(() => {
             var d = [];
             clearVar("isMerge");
-            eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
+            eval(fetch('hiker://files/cache/duanjs/fileLinksᴰⁿ.txt'));
             require(fLinks._bjUrl);
             d.push({
                 title: '保 存',
@@ -288,7 +288,7 @@ var bjItem = {
     },
     plglParse: function() {
         return $('hiker://empty#noRecordHistory#').rule(() => {
-            eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
+            eval(fetch('hiker://files/cache/duanjs/fileLinksᴰⁿ.txt'));
             var d = [];
             d.push({
                 title: '批量管理解析',
@@ -336,7 +336,7 @@ var jxItem = {
         d.push({
             title: '‘‘’’<big>更新脚本依赖',
             url: bjItem.pullScript(),
-            desc: '插件存放路径: /cache/Parse_Dn.js\n其他代码模块存放于libs目录',
+            desc: '插件存放路径: /cache/duanjs/Parse_Dn.js\n其他代码模块存放于libs目录',
             col_type: 'text_center_1'
         });
         splitLine('line', 1);

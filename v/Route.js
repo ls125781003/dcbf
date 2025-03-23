@@ -1,9 +1,9 @@
 
-eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
+eval(fetch('hiker://files/cache/duanjs/fileLinksᴰⁿ.txt'));
 var Route = {
     jxLazy: "require('https://d.kstore.dev/download/13091/duanjs/Route.js');aytmParse(input)",
     setParse: function() {
-        eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
+        eval(fetch('hiker://files/cache/duanjs/fileLinksᴰⁿ.txt'));
         if (!getVar('jxItemV')) {
             require(fLinks.jxItUrl);
         }
@@ -106,7 +106,7 @@ function setupPages(类型, ls) {
         case "编辑":
             return $(empty)。rule(() => {
                 this。d = [];
-                eval(fetch('hiker://files/cache/fileLinksᴰⁿ.txt'));
+                eval(fetch('hiker://files/cache/duanjs/fileLinksᴰⁿ.txt'));
                 require(fLinks.jxItUrl);
                 jxItem.jxList();
                 setResult(d);
